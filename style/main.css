@@ -84,3 +84,39 @@ body {
   border: none;
   background-color: rgba(0,0,0,0.4);
 }
+
+.currscoreboard {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  height: calc(100% - 30px);
+  width: calc(40% - 30px);
+  padding: 15px;
+}
+
+.currscoreboard p {
+  width: calc(100% - 20px);
+  text-align: left;
+  padding: 10px 0 0 10px;
+  margin: 0;
+  font-size: 42px;
+}
+
+.currscoreboard p:nth-child(3) {
+  color: rgba(255,255,255,0.2);
+  text-align: right;
+  padding: 0px 10px 10px 0px;
+  font-size: 32px;
+}
+
+.currscoreboard b {
+  position: absolute;
+  color: rgba(255,255,255,0.2);
+  font-size: 60px;
+  text-align: center;
+  width: calc(100% - 40px);
+  top: 36px; 
+  padding: 0;
+  margin: 0;
+}
