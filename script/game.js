@@ -10,14 +10,13 @@ const scoreBoardElem = document.querySelector('.scoreboard');
 const scoreElem = document.querySelector('#score');
 const allScoreElem = document.querySelector('#allscore');
 document.querySelector('#nextguess').addEventListener('click', nextGuess, false);
-
+document.addEventListener('keydown', (e) => (e.keyCode == 13) && nextGuess(), false);
 let currentGuess = cities[Math.floor((Math.random() * 60))];
 writeCurrentGuess();
 
 //Event handler
 function gameGuess(coords) {
     if(!turn) return;
-    if(!turnsLeft) finishGame();
 
     let diff = {
         x: Math.abs(coords.x - currentGuess.lat),
@@ -37,6 +36,7 @@ function gameGuess(coords) {
     turnsLeft--;
     showScore(currentScore);
 
+    if(turnsLeft <= 0) finishGame();
 }
 
 //Visuals
@@ -52,6 +52,7 @@ function showScore(currentScore) {
 }
 
 function nextGuess() {
+    if(turn) return;
     currentGuess = cities[Math.floor((Math.random() * 60))];
     writeCurrentGuess();
 
