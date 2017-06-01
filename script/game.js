@@ -39,7 +39,7 @@ function gameGuess(coords) {
     turnsLeft--;
     showScore(currentScore);
 
-    if(turnsLeft <= 0) finishGame();
+    if(turnsLeft <= 1) finishGame();
 }
 
 //Visuals
@@ -57,6 +57,8 @@ function showScore(currentScore) {
 
 function nextGuess() {
     if(turn) return;
+    if(turnsLeft <= 1) return;
+    
     currentGuess = cities[Math.floor((Math.random() * 60))];
     writeCurrentGuess();
 
@@ -66,5 +68,5 @@ function nextGuess() {
 }
 
 function finishGame() {
-    alert(score);
+    document.querySelector('#nextguess').style.display = "none";
 }
