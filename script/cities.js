@@ -360,8 +360,8 @@ const cities = [
      'rank': 52,
      'name': 'Fellabaer',
      'population': 382,
-     'lat': 65.98,
-     'lng': -18.6
+     'lat': 65.283851,
+     'lng': -14.4306277
    },
    {
      'rank': 53,
@@ -416,7 +416,7 @@ const cities = [
      'rank': 60,
      'name': 'Fludir',
      'population': 295,
-     'lat': 64.25,
-     'lng': -20.13
+     'lat': 64.1334365,
+     'lng': -20.3245818
    }
 ]
