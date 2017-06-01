@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Roboto:400,900');
+
+/*
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Oleo Script', cursive;
+*/
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+.gamemenu {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+
+  width: 300px;
+  height: 110px;
+  background-color: black;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.gamemenu p {
+  font-family: 'Oleo Script', cursive;
+  color: #525252;
+  padding: 0;
+  margin: 0 0 -10px 0;
+}
+
+#currentguess {
+  color: white;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+#currentpop {
+  color: white;
+  padding: 0 0 10px 0;
+  margin: 3px 0;
+}
+
+/* Scoreboard */
+.scoreboard {
+  position: absolute;
+  background-color: green;
+  top: 0;
+  right: -130px;
+  width: 130px;
+  height: 100%;
+  z-index: 10;
+
+  transition: all 0.2s ease-in-out;
+}
+
+#score {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+
+#allscore {
+  text-align: center;
+  font-size: 22px;
+  padding: 0px;
+  color: rgba(255,255,255,0.3);
+}
+
+.scoreboard button {
+  font-weight: 900;
+  color: green;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: rgba(0,0,0,0.4);
+}
