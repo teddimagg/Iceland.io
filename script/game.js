@@ -23,20 +23,17 @@ writeCurrentGuess();
 function gameGuess(coords) {
     if(!turn) return;
 
-    let diff = {
-        x: Math.abs(coords.x - currentGuess.lat),
-        y: Math.abs(coords.y - currentGuess.lng)
-    }
-    diff.mean = (diff.x + diff.y) / 2;
+    let diff = (Math.abs(coords.lat - currentGuess.lat) + Math.abs(coords.lng - currentGuess.lng)) / 2;
 
-    let penalty = diff.mean * 400;
+    let penalty = diff * 400;
     (penalty > 1000) && (penalty = 1000);
-    let currentScore = (penalty > 25) ? (1000 - penalty) || 0 : 1000;
+    // let currentScore = (penalty > 25) ? (1000 - penalty) || 0 : 1000;
+    (penalty > 25) ? !(currentScore = (1000 - penalty)) && (drawIncorrectCoords(coords)) : (currentScore = 1000);
 
     score += currentScore;
     turn = false;
 
-    drawCoords(currentGuess, coords);
+    drawCorrectCoords(currentGuess);
 
     turnsLeft--;
     showScore(currentScore);

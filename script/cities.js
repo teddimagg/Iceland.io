@@ -15,7 +15,7 @@ const cities = [
    },
    {
      'rank': 3,
-     'name': 'Hafnarfjordur',
+     'name': 'Hafnarfjörður',
      'population': 21600,
      'lat': 64.06,
      'lng': -21.95
@@ -85,7 +85,7 @@ const cities = [
    },
    {
      'rank': 13,
-     'name': 'Isafjordur',
+     'name': 'Isafjörður',
      'population': 2600,
      'lat': 66.08,
      'lng': -23.14
@@ -155,7 +155,7 @@ const cities = [
    },
    {
      'rank': 23,
-     'name': 'Siglufjordur',
+     'name': 'Siglufjörður',
      'population': 1400,
      'lat': 66.16,
      'lng': -18.93
@@ -204,14 +204,14 @@ const cities = [
    },
    {
      'rank': 30,
-     'name': 'Eskifjordur',
+     'name': 'Eskifjörður',
      'population': 980,
      'lat': 65.07,
      'lng': -14
    },
    {
      'rank': 31,
-     'name': 'Olafsfjordur',
+     'name': 'Olafsfjörður',
      'population': 972,
      'lat': 66.07,
      'lng': -18.65
@@ -239,7 +239,7 @@ const cities = [
    },
    {
      'rank': 35,
-     'name': 'Grundarfjordur',
+     'name': 'Grundarfjörður',
      'population': 828,
      'lat': 64.92,
      'lng': -23.27
@@ -253,21 +253,21 @@ const cities = [
    },
    {
      'rank': 37,
-     'name': 'Seydisfjordur',
+     'name': 'Seyðisfjörður',
      'population': 722,
      'lat': 65.25,
      'lng': -14.02
    },
    {
      'rank': 38,
-     'name': 'Reydarfjordur',
+     'name': 'Reyðarfjörður',
      'population': 698,
      'lat': 65.03,
      'lng': -14.22
    },
    {
      'rank': 39,
-     'name': 'Patreksfjordur',
+     'name': 'Patreksfjörður',
      'population': 690,
      'lat': 65.58,
      'lng': -24
@@ -281,7 +281,7 @@ const cities = [
    },
    {
      'rank': 41,
-     'name': 'Faskrudsfjordur',
+     'name': 'Fáskrúðsfjörður',
      'population': 619,
      'lat': 64.93,
      'lng': -14.02
@@ -309,7 +309,7 @@ const cities = [
    },
    {
      'rank': 45,
-     'name': 'Vopnafjordur',
+     'name': 'Vopnafjörður',
      'population': 560,
      'lat': 65.75,
      'lng': -14.83
@@ -379,7 +379,7 @@ const cities = [
    },
    {
      'rank': 55,
-     'name': 'Talknafjordur',
+     'name': 'Talknafjörður',
      'population': 327,
      'lat': 65.62,
      'lng': -23.88
