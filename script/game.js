@@ -14,8 +14,8 @@ const turnElem = document.querySelector('#turn');
 document.querySelector('#nextguess').addEventListener('click', nextGuess, false);
 document.addEventListener('keydown', (e) => (e.keyCode == 13) && nextGuess(), false);
 
-// let currentGuess = cities[Math.floor((Math.random() * 60))];
-let currentGuess = cities[59];
+let currentGuess = cities[Math.floor((Math.random() * 60))];
+// let currentGuess = cities[59];
 let prevGuesses = [currentGuess.rank];
 writeCurrentGuess();
 
@@ -63,7 +63,7 @@ function nextGuess() {
     
     let nextCity;
     do { nextCity = Math.floor((Math.random() * 60)); } 
-    while (prevGuesses.includes(nextCity + 1));
+    while (prevGuesses.includes(nextCity - 1));
 
     currentGuess = cities[nextCity];
     prevGuesses.push(nextCity);
@@ -72,6 +72,7 @@ function nextGuess() {
     initMap();
     turn = true;
     scoreBoardElem.style.right = "-130px";
+    console.log(prevGuesses);
 }
 
 function finishGame() {
