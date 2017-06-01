@@ -14,8 +14,8 @@ const turnElem = document.querySelector('#turn');
 document.querySelector('#nextguess').addEventListener('click', nextGuess, false);
 document.addEventListener('keydown', (e) => (e.keyCode == 13) && nextGuess(), false);
 
-let prevGuesses = [];
 let currentGuess = cities[Math.floor((Math.random() * 60))];
+let prevGuesses = [currentGuess.rank];
 writeCurrentGuess();
 
 //Event handler
@@ -60,7 +60,12 @@ function nextGuess() {
     if(turn) return;
     if(turnsLeft < 1) return;
     
-    currentGuess = cities[Math.floor((Math.random() * 60))];
+    let nextCity;
+    do { nextCity = Math.floor((Math.random() * 60)); } 
+    while (prevGuesses.includes(nextCity + 1));
+
+    currentGuess = cities[nextCity];
+    prevGuesses.push(nextCity);
     writeCurrentGuess();
 
     initMap();
