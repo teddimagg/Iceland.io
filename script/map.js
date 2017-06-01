@@ -17,11 +17,13 @@ var initMap = () => {
 var drawCoords = (click, correct) => {
     var clicked = new google.maps.Marker({
         position: new google.maps.LatLng(click.lat, click.lng),
-        map: map
+        map: map,
+        icon: 'img/greenmarkersmall.png'
     });
 
     var correct = new google.maps.Marker({
         position: new google.maps.LatLng(correct.x, correct.y),
-        map: map
+        map: map,
+        icon: 'img/redmarkersmall.png'
     });
 }
