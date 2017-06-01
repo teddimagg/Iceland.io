@@ -14,30 +14,30 @@ const turnElem = document.querySelector('#turn');
 document.querySelector('#nextguess').addEventListener('click', nextGuess, false);
 document.addEventListener('keydown', (e) => (e.keyCode == 13) && nextGuess(), false);
 
-let currentGuess = cities[Math.floor((Math.random() * 60))];
-// let currentGuess = cities[59];
-let prevGuesses = [currentGuess.rank];
+let currentGuess = cities[Math.floor((Math.random() * cities.length))];
+let prevGuesses = [currentGuess.rank - 1];
+
 writeCurrentGuess();
 
 //Event handler
 function gameGuess(coords) {
-    if(!turn) return;
+    if(!turn) return; //Between scoreboards turn = false
 
+    //Get's the absolute distance between location and guess
     let diff = (Math.abs(coords.lat - currentGuess.lat) + Math.abs(coords.lng - currentGuess.lng)) / 2;
 
-    let penalty = diff * 400;
+    //Calculates score, penalty and calls marker draws
+    let penalty = diff * 500, currentScore = 0;
     (penalty > 1000) && (penalty = 1000);
-    // let currentScore = (penalty > 25) ? (1000 - penalty) || 0 : 1000;
-    (penalty > 25) ? !(currentScore = (1000 - penalty)) && (drawIncorrectCoords(coords)) : (currentScore = 1000);
-
-    score += currentScore;
-    turn = false;
-
+    (penalty > 25) ? drawIncorrectCoords(coords) && (currentScore = 1000 - penalty) : currentScore = 1000;
     drawCorrectCoords(currentGuess);
 
+    //Iterates score and turns accordingly and displays them
+    score += currentScore, turn = false;;
     turnsLeft--;
     showScore(currentScore);
 
+    //Finishes game if there are no turns left
     if(turnsLeft < 1) finishGame();
 }
 
@@ -55,21 +55,24 @@ function showScore(currentScore) {
 }
 
 function nextGuess() {
+    //Checks validity params
     if(turn) return;
     if(turnsLeft < 1) return;
-    
-    let nextCity;
-    do { nextCity = Math.floor((Math.random() * 60)); } 
-    while (prevGuesses.includes(nextCity - 1));
 
+    //Randomized next city
+    let nextCity;
+    do { nextCity = Math.floor((Math.random() * cities.length)); }
+    while (prevGuesses.includes(nextCity));
+
+    //Sets the next city as a guess and stores it to avoid duplicity
     currentGuess = cities[nextCity];
     prevGuesses.push(nextCity);
     writeCurrentGuess();
 
+    //Resets map, turn and hides scoreboard
     initMap();
     turn = true;
     scoreBoardElem.style.right = "-130px";
-    console.log(prevGuesses);
 }
 
 function finishGame() {

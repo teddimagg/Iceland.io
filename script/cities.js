@@ -418,5 +418,313 @@ const cities = [
      'population': 295,
      'lat': 64.1334365,
      'lng': -20.3245818
+   },
+   {
+     'rank': 61,
+     'name': 'Stodvarfjörður',
+     'population': 257,
+     'lat': 64.84,
+     'lng': -13.88
+   },
+   {
+     'rank': 62,
+     'name': 'Raufarhofn',
+     'population': 245,
+     'lat': 66.45,
+     'lng': -15.95
+   },
+   {
+     'rank': 63,
+     'name': 'Budardalur',
+     'population': 242,
+     'lat': 65.12,
+     'lng': -21.77
+   },
+   {
+     'rank': 64,
+     'name': 'Bildudalur',
+     'population': 226,
+     'lat': 65.67,
+     'lng': -23.62
+   },
+   {
+     'rank': 65,
+     'name': 'Bifrost',
+     'population': 209,
+     'lat': 64.75,
+     'lng': -21.5
+   },
+   {
+     'rank': 66,
+     'name': 'Reykjahlid',
+     'population': 207,
+     'lat': 65.65,
+     'lng': -16.92
+   },
+   {
+     'rank': 67,
+     'name': 'Svalbardseyri',
+     'population': 204,
+     'lat': 65.75,
+     'lng': -18.1
+   },
+   {
+     'rank': 68,
+     'name': 'Hvanneyri',
+     'population': 200,
+     'lat': 64.57,
+     'lng': -21.77
+   },
+   {
+     'rank': 69,
+     'name': 'Sudavík',
+     'population': 192,
+     'lat': 66.03,
+     'lng': -23
+   },
+   {
+     'rank': 70,
+     'name': 'Laugarvatn',
+     'population': 181,
+     'lat': 64.22,
+     'lng': -20.73
+   },
+   {
+     'rank': 71,
+     'name': 'Hofsós',
+     'population': 177,
+     'lat': 65.9,
+     'lng': -19.43
+   },
+   {
+     'rank': 72,
+     'name': 'Hrísey',
+     'population': 177,
+     'lat': 66,
+     'lng': -18.38
+   },
+   {
+     'rank': 73,
+     'name': 'Breiddalsvík',
+     'population': 175,
+     'lat': 64.8,
+     'lng': -14
+   },
+   {
+     'rank': 74,
+     'name': 'Reykholt',
+     'population': 170,
+     'lat': null,
+     'lng': null
+   },
+   {
+     'rank': 75,
+     'name': 'Hauganeó',
+     'population': 163,
+     'lat': 65.92,
+     'lng': -18.3
+   },
+   {
+     'rank': 76,
+     'name': 'Rií',
+     'population': 141,
+     'lat': 64.93,
+     'lng': -23.82
+   },
+   {
+     'rank': 77,
+     'name': 'Kirkjubaejarklaustur',
+     'population': 141,
+     'lat': 63.78,
+     'lng': -18.07
+   },
+   {
+     'rank': 78,
+     'name': 'Hrafnagil',
+     'population': 141,
+     'lat': 65.87,
+     'lng': -18.37
+   },
+   {
+     'rank': 79,
+     'name': 'Kopasker',
+     'population': 140,
+     'lat': 66.3,
+     'lng': -16.45
+   },
+   {
+     'rank': 80,
+     'name': 'Litli-arskogssandur',
+     'population': 131,
+     'lat': 65.95,
+     'lng': -18.37
+   },
+   {
+     'rank': 81,
+     'name': 'Varmahlid',
+     'population': 130,
+     'lat': 65.55,
+     'lng': -19.47
+   },
+   {
+     'rank': 82,
+     'name': 'Hafnir',
+     'population': 120,
+     'lat': 63.93,
+     'lng': -22.68
+   },
+   {
+     'rank': 83,
+     'name': 'Reykholar',
+     'population': 119,
+     'lat': 65.45,
+     'lng': -22.2
+   },
+   {
+     'rank': 84,
+     'name': 'Laugaras',
+     'population': 117,
+     'lat': 64.12,
+     'lng': -20.5
+   },
+   {
+     'rank': 85,
+     'name': 'Bakkafjörður',
+     'population': 104,
+     'lat': 66.02,
+     'lng': -14.87
+   },
+   {
+     'rank': 86,
+     'name': 'Borgarfjörður',
+     'population': 98,
+     'lat': 65.77,
+     'lng': -23.25
+   },
+   {
+     'rank': 87,
+     'name': 'Grimsey',
+     'population': 96,
+     'lat': 66.53,
+     'lng': -21.4
+   },
+   {
+     'rank': 88,
+     'name': 'Holar',
+     'population': 95,
+     'lat': 65.73,
+     'lng': -19.13
+   },
+   {
+     'rank': 89,
+     'name': 'Laugar',
+     'population': 92,
+     'lat': 65.73,
+     'lng': -17.3
+   },
+   {
+     'rank': 90,
+     'name': 'Nesjakauptun',
+     'population': 89,
+     'lat': null,
+     'lng': null
+   },
+   {
+     'rank': 91,
+     'name': 'Drangsnes',
+     'population': 85,
+     'lat': 65.68,
+     'lng': -21.45
+   },
+   {
+     'rank': 92,
+     'name': 'Laugarbakki',
+     'population': 80,
+     'lat': 63.97,
+     'lng': -20.98
+   },
+   {
+     'rank': 93,
+     'name': 'Solheimar',
+     'population': 64,
+     'lat': 64.07,
+     'lng': -20.65
+   },
+   {
+     'rank': 94,
+     'name': 'Arbaejarhverfi',
+     'population': 59,
+     'lat': null,
+     'lng': null
+   },
+   {
+     'rank': 95,
+     'name': 'Hallormsstadur',
+     'population': 59,
+     'lat': 65.1,
+     'lng': -14.75
+   },
+   {
+     'rank': 96,
+     'name': 'Kristnes',
+     'population': 52,
+     'lat': 65.58,
+     'lng': -18.08
+   },
+   {
+     'rank': 97,
+     'name': 'Hjalteyri',
+     'population': 44,
+     'lat': 65.86,
+     'lng': -18.2
+   },
+   {
+     'rank': 98,
+     'name': 'Kleppjarnsreykir',
+     'population': 44,
+     'lat': 64.65,
+     'lng': -21.4
+   },
+   {
+     'rank': 99,
+     'name': 'Eidar',
+     'population': 42,
+     'lat': 65.37,
+     'lng': -14.38
+   },
+   {
+     'rank': 100,
+     'name': 'Raudalaekur',
+     'population': 33,
+     'lat': 65.68,
+     'lng': -18.38
+   },
+   {
+     'rank': 101,
+     'name': 'Reykholt',
+     'population': 32,
+     'lat': 64.67,
+     'lng': -21.3
+   },
+   {
+     'rank': 102,
+     'name': 'Skogar',
+     'population': 26,
+     'lat': null,
+     'lng': null
+   },
+   {
+     'rank': 103,
+     'name': 'Bordeyri',
+     'population': 24,
+     'lat': 65.2,
+     'lng': -21.13
+   },
+   {
+     'rank': 104,
+     'name': 'Krossholt',
+     'population': 14,
+     'lat': 64.72,
+     'lng': -22.3
    }
 ]

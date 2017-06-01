@@ -20,6 +20,7 @@ var drawIncorrectCoords = (coords) => {
         map: map,
         icon: 'img/redmarkersmall.png'
     });
+    return true;
 }
 
 var drawCorrectCoords = (coords) => {
@@ -28,4 +29,5 @@ var drawCorrectCoords = (coords) => {
         map: map,
         icon: 'img/greenmarkersmall.png'
     });
+    return true;
 }
