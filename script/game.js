@@ -107,9 +107,17 @@ function showScore(currentScore) {
 // remove next guess button on game end
 function finishGame() {
     document.querySelector('#nextguess').style.display = "none";
+    document.querySelector('.endmsg').style.display = "block";
+    document.querySelector('#finalscore').innerHTML = score.toFixed(0);
+}
+
+function startGame() {
+    document.querySelector('#nextguess').style.display = "block";
+    document.querySelector('.endmsg').style.display = "none";
 }
 
 function resetGame() {
+    startGame();
     turn = false;
     turnsLeft = 10;
     score = 0;

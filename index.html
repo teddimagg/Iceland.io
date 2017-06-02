@@ -8,7 +8,7 @@
 <body>
   <!-- Logo -->
   <h1 class="logo">Iceland.io</h1>
-  
+
   <!-- Left hand menu -->
   <div class="gamemenu">
     <p clas="guesslabel">Try and find:</p>
@@ -41,6 +41,14 @@
   </div>
   <!-- Infopanel topright -->
   <div id="map"></div>
+
+  <!-- End of game message -->
+  <div class="endmsg">
+    <p>You scored:</p>
+    <h2 id="finalscore"></h2>
+    <button onClick="resetGame()">Try again!</button>
+  </div>
+
 
   <script src="script/map.js"></script>
   <script src="script/cities.js"></script>

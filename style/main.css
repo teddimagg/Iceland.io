@@ -129,14 +129,14 @@ body {
   font-size: 60px;
   text-align: center;
   width: calc(100% - 40px);
-  top: 36px; 
+  top: 36px;
   padding: 0;
   margin: 0;
 }
 
 .settings {
   position: absolute;
-  right: 50px;
+  right: 0px;
   bottom: 0;
   z-index: 5;
   background-color: black;
@@ -163,7 +163,7 @@ body {
   width: 200px;
   background-color: rgba(0,0,0,0.5);
   z-index: 5;
-  right: 110px;
+  right: 60px;
   transition: all 0.1s ease-in-out;
 }
 
@@ -197,4 +197,55 @@ body {
 
 .settings:hover + .settingspanel, .settingspanel:hover {
   bottom: 0;
+}
+
+/* endgame */
+.endmsg {
+  display: none;
+  width: 30vw;
+  height: 20vh;
+  z-index: 10;
+  position: absolute;
+  top: 40vh;
+  left: 35vw;
+  /*background-color: rgba(255,255,255,0.5);*/
+}
+
+.endmsg p {
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  text-shadow: 3px 3px 2px black;
+  padding: 0;
+  margin: 0;
+}
+
+.endmsg h2 {
+  color: orange;
+  font-size: 80px;
+  font-family: 'Oleo Script', cursive;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.endmsg button {
+  width: 120px;
+  margin-left: calc(50% - 60px);
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.3);
+  color: white;
+  font-family: 'Oleo Script', cursive;
+}
+
+.endmsg button:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.endmsg button:focus {
+  outline: none;
 }
