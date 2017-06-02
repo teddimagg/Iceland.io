@@ -514,19 +514,19 @@ const cities = [
      'rank': 74,
      'name': 'Reykholt',
      'population': 170,
-     'lat': null,
-     'lng': null
+     'lat': 64.6651134,
+     'lng': -21.289686
    },
    {
      'rank': 75,
-     'name': 'Hauganeó',
+     'name': 'Hauganes',
      'population': 163,
      'lat': 65.92,
      'lng': -18.3
    },
    {
      'rank': 76,
-     'name': 'Rií',
+     'name': 'Rif',
      'population': 141,
      'lat': 64.93,
      'lng': -23.82
@@ -575,7 +575,7 @@ const cities = [
    },
    {
      'rank': 83,
-     'name': 'Reykholar',
+     'name': 'Reykhólar',
      'population': 119,
      'lat': 65.45,
      'lng': -22.2
@@ -605,8 +605,8 @@ const cities = [
      'rank': 87,
      'name': 'Grimsey',
      'population': 96,
-     'lat': 66.53,
-     'lng': -21.4
+     'lat': 66.5429881,
+     'lng': -17.9952902
    },
    {
      'rank': 88,
@@ -619,15 +619,8 @@ const cities = [
      'rank': 89,
      'name': 'Laugar',
      'population': 92,
-     'lat': 65.73,
-     'lng': -17.3
-   },
-   {
-     'rank': 90,
-     'name': 'Nesjakauptun',
-     'population': 89,
-     'lat': null,
-     'lng': null
+     'lat': 65.2462909,
+     'lng': -21.8008523
    },
    {
      'rank': 91,
@@ -640,8 +633,8 @@ const cities = [
      'rank': 92,
      'name': 'Laugarbakki',
      'population': 80,
-     'lat': 63.97,
-     'lng': -20.98
+     'lat': 65.323668,
+     'lng': -20.8893434
    },
    {
      'rank': 93,
@@ -652,10 +645,10 @@ const cities = [
    },
    {
      'rank': 94,
-     'name': 'Arbaejarhverfi',
+     'name': 'Árbæjarhverfi í Ölfusi',
      'population': 59,
-     'lat': null,
-     'lng': null
+     'lat': 63.9445326,
+     'lng': -21.0227564
    },
    {
      'rank': 95,
@@ -680,14 +673,14 @@ const cities = [
    },
    {
      'rank': 98,
-     'name': 'Kleppjarnsreykir',
+     'name': 'Kleppjárnsreykir',
      'population': 44,
      'lat': 64.65,
      'lng': -21.4
    },
    {
      'rank': 99,
-     'name': 'Eidar',
+     'name': 'Eiðar',
      'population': 42,
      'lat': 65.37,
      'lng': -14.38
@@ -708,14 +701,14 @@ const cities = [
    },
    {
      'rank': 102,
-     'name': 'Skogar',
+     'name': 'Skógar',
      'population': 26,
-     'lat': null,
-     'lng': null
+     'lat': 63.5270931,
+     'lng': -19.5012749
    },
    {
      'rank': 103,
-     'name': 'Bordeyri',
+     'name': 'Borðeyri',
      'population': 24,
      'lat': 65.2,
      'lng': -21.13
