@@ -1,14 +1,14 @@
 const cities = [
    {
      'rank': 1,
-     'name': 'Reykjavik',
+     'name': 'Reykjavík',
      'population': 113400,
      'lat': 64.14,
      'lng': -21.92
    },
    {
      'rank': 2,
-     'name': 'Kopavogur',
+     'name': 'Kópavogur',
      'population': 25700,
      'lat': 64.12,
      'lng': -21.92
@@ -29,21 +29,21 @@ const cities = [
    },
    {
      'rank': 5,
-     'name': 'Gardabaer',
+     'name': 'Garðabær',
      'population': 9000,
      'lat': 64.09,
      'lng': -21.99
    },
    {
      'rank': 6,
-     'name': 'Keflavik',
+     'name': 'Keflavík',
      'population': 8000,
      'lat': 64.01,
      'lng': -22.56
    },
    {
      'rank': 7,
-     'name': 'Mosfellsbaer',
+     'name': 'Mosfellsbær',
      'population': 6700,
      'lat': 64.15,
      'lng': -21.65
@@ -71,63 +71,63 @@ const cities = [
    },
    {
      'rank': 11,
-     'name': 'Vestmannaeyjar',
+     'name': 'Vestmannæyjar',
      'population': 4300,
      'lat': 63.44,
      'lng': -20.27
    },
    {
      'rank': 12,
-     'name': 'Njardvik',
+     'name': 'Njardvík',
      'population': 2800,
      'lat': 63.97,
      'lng': -22.55
    },
    {
      'rank': 13,
-     'name': 'Isafjörður',
+     'name': 'Ísafjörður',
      'population': 2600,
      'lat': 66.08,
      'lng': -23.14
    },
    {
      'rank': 14,
-     'name': 'Saudarkrokur',
+     'name': 'Sauðárkrókur',
      'population': 2600,
      'lat': 65.74,
      'lng': -19.66
    },
    {
      'rank': 15,
-     'name': 'Grindavik',
+     'name': 'Grindavík',
      'population': 2500,
      'lat': 63.85,
      'lng': -22.45
    },
    {
      'rank': 16,
-     'name': 'Husavik',
+     'name': 'Húsavík',
      'population': 2400,
      'lat': 66.05,
      'lng': -17.35
    },
    {
      'rank': 17,
-     'name': 'Alftanes',
+     'name': 'Álftanes',
      'population': 2000,
      'lat': 64.11,
      'lng': -22.03
    },
    {
      'rank': 18,
-     'name': 'Hveragerdi',
+     'name': 'Hveragerði',
      'population': 1900,
      'lat': 64.01,
      'lng': -21.21
    },
    {
      'rank': 19,
-     'name': 'Egilsstadir',
+     'name': 'Egilsstaðir',
      'population': 1800,
      'lat': 65.26,
      'lng': -14.4
@@ -141,14 +141,14 @@ const cities = [
    },
    {
      'rank': 21,
-     'name': 'Hofn',
+     'name': 'Höfn',
      'population': 1700,
      'lat': 64.26,
      'lng': -15.21
    },
    {
      'rank': 22,
-     'name': 'Neskaupstadur',
+     'name': 'Neskaupstaður',
      'population': 1400,
      'lat': 65.15,
      'lng': -13.7
@@ -162,28 +162,28 @@ const cities = [
    },
    {
      'rank': 24,
-     'name': 'Sandgerdi',
+     'name': 'Sandgerði',
      'population': 1400,
      'lat': 64.05,
      'lng': -22.71
    },
    {
      'rank': 25,
-     'name': 'Dalvik',
+     'name': 'Dalvík',
      'population': 1400,
      'lat': 65.98,
      'lng': -18.58
    },
    {
      'rank': 26,
-     'name': 'Þorlakshofn',
+     'name': 'Þorlákshöfn',
      'population': 1300,
      'lat': 63.86,
      'lng': -21.4
    },
    {
      'rank': 27,
-     'name': 'Gardur',
+     'name': 'Garður',
      'population': 1300,
      'lat': 64.07,
      'lng': -22.65
@@ -197,7 +197,7 @@ const cities = [
    },
    {
      'rank': 29,
-     'name': 'Olafsvik',
+     'name': 'Ólafsvík',
      'population': 1000,
      'lat': 64.89,
      'lng': -23.74
@@ -211,21 +211,21 @@ const cities = [
    },
    {
      'rank': 31,
-     'name': 'Olafsfjörður',
+     'name': 'Ólafsfjörður',
      'population': 972,
      'lat': 66.07,
      'lng': -18.65
    },
    {
      'rank': 32,
-     'name': 'Bolungarvik',
+     'name': 'Bolungarvík',
      'population': 933,
      'lat': 66.15,
      'lng': -23.27
    },
    {
      'rank': 33,
-     'name': 'Blonduos',
+     'name': 'Blönduós',
      'population': 902,
      'lat': 65.66,
      'lng': -20.31
@@ -246,7 +246,7 @@ const cities = [
    },
    {
      'rank': 36,
-     'name': 'Hvolsvollur',
+     'name': 'Hvolsvöllur',
      'population': 726,
      'lat': 63.75,
      'lng': -20.23
@@ -344,42 +344,42 @@ const cities = [
    },
    {
      'rank': 50,
-     'name': 'Holmavik',
+     'name': 'Hólmavík',
      'population': 405,
      'lat': 65.72,
      'lng': -21.68
    },
    {
      'rank': 51,
-     'name': 'Djupivogur',
+     'name': 'Djúpivogur',
      'population': 388,
      'lat': 64.65,
      'lng': -14.28
    },
    {
      'rank': 52,
-     'name': 'Fellabaer',
+     'name': 'Fellabær',
      'population': 382,
      'lat': 65.283851,
      'lng': -14.4306277
    },
    {
      'rank': 53,
-     'name': 'Þorshofn',
+     'name': 'Þórshöfn',
      'population': 365,
      'lat': 66.2,
      'lng': -15.33
    },
    {
      'rank': 54,
-     'name': 'Sudureyri',
+     'name': 'Suðureyri',
      'population': 338,
      'lat': 66.12,
      'lng': -23.53
    },
    {
      'rank': 55,
-     'name': 'Talknafjörður',
+     'name': 'Tálknafjörður',
      'population': 327,
      'lat': 65.62,
      'lng': -23.88
@@ -400,70 +400,70 @@ const cities = [
    },
    {
      'rank': 58,
-     'name': 'Grenivik',
+     'name': 'Grenivík',
      'population': 298,
      'lat': 65.95,
      'lng': -18.18
    },
    {
      'rank': 59,
-     'name': 'Vik i myrdal',
+     'name': 'Vík í Mýrdal',
      'population': 297,
      'lat': 63.42,
      'lng': -19.02
    },
    {
      'rank': 60,
-     'name': 'Fludir',
+     'name': 'Flúðir',
      'population': 295,
      'lat': 64.1334365,
      'lng': -20.3245818
    },
    {
      'rank': 61,
-     'name': 'Stodvarfjörður',
+     'name': 'Stöðvarfjörður',
      'population': 257,
      'lat': 64.84,
      'lng': -13.88
    },
    {
      'rank': 62,
-     'name': 'Raufarhofn',
+     'name': 'Raufarhöfn',
      'population': 245,
      'lat': 66.45,
      'lng': -15.95
    },
    {
      'rank': 63,
-     'name': 'Budardalur',
+     'name': 'Búðardalur',
      'population': 242,
      'lat': 65.12,
      'lng': -21.77
    },
    {
      'rank': 64,
-     'name': 'Bildudalur',
+     'name': 'Bíldudalur',
      'population': 226,
      'lat': 65.67,
      'lng': -23.62
    },
    {
      'rank': 65,
-     'name': 'Bifrost',
+     'name': 'Bifröst',
      'population': 209,
      'lat': 64.75,
      'lng': -21.5
    },
    {
      'rank': 66,
-     'name': 'Reykjahlid',
+     'name': 'Reykjahlíð',
      'population': 207,
      'lat': 65.65,
      'lng': -16.92
    },
    {
      'rank': 67,
-     'name': 'Svalbardseyri',
+     'name': 'Svalbarðseyri',
      'population': 204,
      'lat': 65.75,
      'lng': -18.1
@@ -477,7 +477,7 @@ const cities = [
    },
    {
      'rank': 69,
-     'name': 'Sudavík',
+     'name': 'Súðavík',
      'population': 192,
      'lat': 66.03,
      'lng': -23
@@ -505,7 +505,7 @@ const cities = [
    },
    {
      'rank': 73,
-     'name': 'Breiddalsvík',
+     'name': 'Breiðdalsvík',
      'population': 175,
      'lat': 64.8,
      'lng': -14
@@ -533,7 +533,7 @@ const cities = [
    },
    {
      'rank': 77,
-     'name': 'Kirkjubaejarklaustur',
+     'name': 'Kirkjubæjarklaustur',
      'population': 141,
      'lat': 63.78,
      'lng': -18.07
@@ -542,26 +542,26 @@ const cities = [
      'rank': 78,
      'name': 'Hrafnagil',
      'population': 141,
-     'lat': 65.87,
-     'lng': -18.37
+     'lat': 65.5755879,
+     'lng': -18.095163
    },
    {
      'rank': 79,
-     'name': 'Kopasker',
+     'name': 'Kópasker',
      'population': 140,
      'lat': 66.3,
      'lng': -16.45
    },
    {
      'rank': 80,
-     'name': 'Litli-arskogssandur',
+     'name': 'Litli-árskógasandur',
      'population': 131,
      'lat': 65.95,
      'lng': -18.37
    },
    {
      'rank': 81,
-     'name': 'Varmahlid',
+     'name': 'Varmahlíð',
      'population': 130,
      'lat': 65.55,
      'lng': -19.47
@@ -582,7 +582,7 @@ const cities = [
    },
    {
      'rank': 84,
-     'name': 'Laugaras',
+     'name': 'Laugarás',
      'population': 117,
      'lat': 64.12,
      'lng': -20.5
@@ -603,14 +603,14 @@ const cities = [
    },
    {
      'rank': 87,
-     'name': 'Grimsey',
+     'name': 'Grímsey',
      'population': 96,
      'lat': 66.5429881,
      'lng': -17.9952902
    },
    {
      'rank': 88,
-     'name': 'Holar',
+     'name': 'Hólar',
      'population': 95,
      'lat': 65.73,
      'lng': -19.13
@@ -638,7 +638,7 @@ const cities = [
    },
    {
      'rank': 93,
-     'name': 'Solheimar',
+     'name': 'Sólheimar',
      'population': 64,
      'lat': 64.07,
      'lng': -20.65
@@ -652,7 +652,7 @@ const cities = [
    },
    {
      'rank': 95,
-     'name': 'Hallormsstadur',
+     'name': 'Hallormsstaður',
      'population': 59,
      'lat': 65.1,
      'lng': -14.75
@@ -687,7 +687,7 @@ const cities = [
    },
    {
      'rank': 100,
-     'name': 'Raudalaekur',
+     'name': 'Rauðalækur',
      'population': 33,
      'lat': 65.68,
      'lng': -18.38
