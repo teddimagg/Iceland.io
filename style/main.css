@@ -8,6 +8,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 
 #map {
@@ -131,4 +132,69 @@ body {
   top: 36px; 
   padding: 0;
   margin: 0;
+}
+
+.settings {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  z-index: 5;
+  background-color: black;
+  height: 60px;
+  width: 60px;
+}
+
+.settings img {
+  width: 60%;
+  height: 60%;
+  margin: 20%;
+}
+
+.settings:hover > img {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(20deg);
+  cursor: pointer;
+}
+
+.settingspanel {
+  position: absolute;
+  bottom: -60px;
+  height: 60px;
+  width: 200px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 5;
+  right: 110px;
+  transition: all 0.1s ease-in-out;
+}
+
+.settingspanel p {
+  color: rgba(255,255,255,0.6);
+  font-family: 'Oleo Script', cursive;
+  margin: 10px 0 0 10px;
+}
+
+.settingspanel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.settingspanel ul li {
+  display: inline;
+  color: white;
+  margin-left: 10px;
+  font-weight: 900;
+}
+
+.settingspanel ul li:hover {
+  cursor: pointer;
+  color: rgba(255,165,0, 0.8);
+}
+
+.active {
+  color: orange !important;
+}
+
+.settings:hover + .settingspanel, .settingspanel:hover {
+  bottom: 0;
 }

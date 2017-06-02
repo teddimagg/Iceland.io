@@ -6,7 +6,10 @@
     <title>Iceland.io</title>
   </head>
 <body>
+  <!-- Logo -->
   <h1 class="logo">Iceland.io</h1>
+  
+  <!-- Left hand menu -->
   <div class="gamemenu">
     <p clas="guesslabel">Try and find:</p>
     <h2 id="currentguess"></h2>
@@ -23,6 +26,20 @@
       <button id="nextguess">NEXT</button>
     </div>
   </div>
+
+  <!-- Settings cog -->
+  <div class="settings">
+    <img src="http://www.clker.com/cliparts/V/u/o/j/G/b/white-cog-md.png" alt="">
+  </div>
+  <div class="settingspanel">
+    <p>Difficulty level</p>
+    <ul>
+      <li id="diffeasy" class="active">Easy</li>
+      <li id="diffmedium">Medium</li>
+      <li id="diffhard">Hard</li>
+    </ul>
+  </div>
+  <!-- Infopanel topright -->
   <div id="map"></div>
 
   <script src="script/map.js"></script>

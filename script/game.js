@@ -2,7 +2,7 @@
 let turn = true;
 let turnsLeft = 10;
 let score = 0;
-let difficulty = 2;
+let difficulty = 1;
 
 // Elements
 const elems = {
@@ -17,6 +17,27 @@ const elems = {
 //Event listeners
 document.querySelector('#nextguess').addEventListener('click', nextGuess, false);
 document.addEventListener('keydown', (e) => (e.keyCode == 13 || e.keyCode == 32) && nextGuess(), false); //Space or Enter equals pressing next guess
+
+//Difficulty settings
+// elems
+const diffElems = {
+    easy: document.querySelector('#diffeasy'),
+    medium: document.querySelector('#diffmedium'),
+    hard: document.querySelector('#diffhard')
+}
+
+// event handlers
+diffElems.easy.addEventListener('click', () => setDifficulty(1), false);
+diffElems.medium.addEventListener('click', () => setDifficulty(2), false);
+diffElems.hard.addEventListener('click', () => setDifficulty(3), false);
+
+function setDifficulty(diff){
+    // console.log();
+    document.querySelector('.active').classList.remove('active');
+    event.target.classList.add('active');
+    difficulty = diff;
+    resetGame();
+}
 
 
 let currentGuess = cities[Math.floor((Math.random() * Math.floor((cities.length))/3 * difficulty ))];
@@ -86,4 +107,12 @@ function showScore(currentScore) {
 // remove next guess button on game end
 function finishGame() {
     document.querySelector('#nextguess').style.display = "none";
+}
+
+function resetGame() {
+    turn = false;
+    turnsLeft = 10;
+    score = 0;
+    prevGuesses = [];
+    nextGuess();
 }
