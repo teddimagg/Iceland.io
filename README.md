@@ -1,6 +1,6 @@
 # Iceland.io
 A geoguessr-like Maps API guessing game. A randomized query of Icelandic cities and townes is generated
-and the user is supposed to find every last one them. The score is based on the distance between the guess itself and the real location of the current objective
+and the user is supposed to find every last one them. The score is based on the distance between the guess itself and the real location of the current objective. There are 3 difficulty levels, each level unlocks a third of the dataset, ordered by population.
 
 ## Live server
 ```
